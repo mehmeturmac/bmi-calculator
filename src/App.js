@@ -18,7 +18,7 @@ function App() {
       </div>
 
       <Routes>
-        <Route path="/" exact element={<Calculator />} />
+        <Route path="/" element={<Calculator />} />
         <Route path="/whatisbmi" element={<WhatIsBMI />} />
         <Route path="/dietlist" element={<DietList />} />
         <Route path="*" element={<ErrorPage />} />
