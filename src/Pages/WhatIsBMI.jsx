@@ -2,7 +2,7 @@ import React from 'react';
 
 function WhatIsBMI() {
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 pb-20">
       <div className="p-6 md:space-x-10">
         <h1 className="text-3xl leading-10 font-bold">What is the body mass index (BMI)?</h1>
         <p className="text-lg py-1 indent-4">The body mass index (BMI) is a measure that uses your height and weight to work out if your weight is healthy.</p>

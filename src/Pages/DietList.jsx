@@ -2,7 +2,7 @@ import React from 'react';
 
 function DietList() {
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 pb-20">
       <div className="p-6 md:space-x-10">
         <h1 className="text-3xl leading-10 font-bold">Weight Loss Diet Plan Chart</h1>
         <ul className="list-disc py-1 indent-4 px-10 mt-3">

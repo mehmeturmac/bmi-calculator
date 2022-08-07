@@ -37,9 +37,9 @@ function Calculator() {
   };
 
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 pb-20">
       <div className="p-6 flex flex-col md:space-x-10 sm:flex-row">
-        <div className="w-full p-10">
+        <div className="w-full p-10 flex justify-center">
           <img src="https://medicinehospital.com.tr/endex/BMI.png" alt="bmi" />
         </div>
         <form onSubmit={handleSubmit} className="w-full p-10 flex flex-col items-center justify-center">
@@ -59,9 +59,9 @@ function Calculator() {
         </form>
       </div>
 
-      <div className="flex flex-col md:space-x-10 sm:flex-row mb-10">
+      <div className="flex flex-col-reverse md:space-x-10 mb-10 sm:flex-row">
         {history.length > 0 && (
-          <div className={`${bmi > 0 ? 'flex flex-col w-full' : 'flex flex-col w-1/2'}`}>
+          <div className={`${bmi > 0 ? 'flex flex-col w-full' : 'flex flex-col md:w-1/2 w-full'}`}>
             <MyButton onClick={() => dispatch(clearHistory())}>Clear</MyButton>
             <div className="overflow-x-auto relative">
               <table className="w-full text-sm text-left text-gray-500">
