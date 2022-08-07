@@ -10,17 +10,25 @@ function WhatIsBMI() {
 
         <h1 className="text-2xl leading-10 font-bold">BMI ranges</h1>
         <p className="text-lg py-1 indent-4">For most adults, an ideal BMI is in the 18.5 to 24.9 range.</p>
-        <p className="text-lg py-1 indent-4">For children and young people aged 2 to 18, the BMI calculation takes into account age and gender as well as height and weight.</p>
         <p className="text-lg py-1 indent-4">If your BMI is:</p>
         <ul className="list-disc py-1 indent-4 px-10">
-          <li>below 18.5 - you're in the underweight range</li>
-          <li>between 18.5 and 24.9 - you're in the healthy weight range</li>
-          <li>between 25 and 29.9 - you're in the overweight range</li>
-          <li> between 30 and 39.9 - you're in the obese range</li>
+          <li>
+            below 18.5 - you're in the <span className="text-yellow-500 font-bold">underweight</span> range
+          </li>
+          <li>
+            between 18.5 and 24.9 - you're in the <span className="text-green-500 font-bold">healthy weight</span> range
+          </li>
+          <li>
+            between 25 and 29.9 - you're in the <span className="text-orange-500 font-bold">overweight</span> range
+          </li>
+          <li>
+            {' '}
+            between 30 and 39.9 - you're in the <span className="text-red-500 font-bold">obese</span> range
+          </li>
         </ul>
         <p className="text-lg py-1 indent-4">
           If you want to calculate your BMI, try our{' '}
-          <a href="/" class="text-blue-600">
+          <a href="/" className="text-blue-600">
             healthy weight calculator.
           </a>
         </p>
