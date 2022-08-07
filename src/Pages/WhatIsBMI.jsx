@@ -18,7 +18,12 @@ function WhatIsBMI() {
           <li>between 25 and 29.9 - you're in the overweight range</li>
           <li> between 30 and 39.9 - you're in the obese range</li>
         </ul>
-        <p className="text-lg py-1 indent-4">If you want to calculate your BMI, try our healthy weight calculator. *** </p>
+        <p className="text-lg py-1 indent-4">
+          If you want to calculate your BMI, try our{' '}
+          <a href="/" class="text-blue-600">
+            healthy weight calculator.
+          </a>
+        </p>
 
         <h1 className="text-2xl leading-10 font-bold">Accuracy of BMI</h1>
         <p className="text-lg py-1 indent-4"> BMI takes into account natural variations in body shape, giving a healthy weight range for a particular height.</p>
