@@ -7,6 +7,7 @@ import Calculator from './components/Calculator';
 // Pages
 import WhatIsBMI from './Pages/WhatIsBMI';
 import DietList from './Pages/DietList';
+import ErrorPage from './Pages/ErrorPage';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" exact element={<Calculator />} />
         <Route path="/whatisbmi" element={<WhatIsBMI />} />
         <Route path="/dietlist" element={<DietList />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
     </div>
   );
